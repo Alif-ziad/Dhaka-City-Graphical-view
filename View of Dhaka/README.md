@@ -1,19 +1,37 @@
-# View of Dhaka — Source and Assets
+# View of Dhaka — Source, Assets and Report
 
-This directory contains the source code, screenshots, and report for the **Dhaka City Graphical View** OpenGL/GLUT project.
+This directory contains the source code, screenshots, and submitted report for the **Dhaka City Graphical View** OpenGL/GLUT project.
 
-The recommended integrated entry point is:
+## Recommended integrated entry point
 
 ```text
 Merged/Merged.cpp
 ```
 
-Individual implementations are preserved under:
+The merged application switches among three scenes:
 
-- `Airport/`
-- `Uttara/`
-- `300ft/`
+- `Airport/` — standalone Airport implementation
+- `Uttara/` — standalone Uttara implementation
+- `300ft/` — standalone perspective/3D-style 300 Feet experiment
+- `Merged/` — integrated application containing its own unified Airport, Uttara, and 300 Feet scene implementations
 
-The project report is under `Report/`.
+> The standalone `300ft/300ft .cpp` and the 300 Feet scene embedded inside `Merged/Merged.cpp` are related but distinct implementations. See the root README for the exact distinction and controls.
 
-For screenshots, controls, dependencies, and build instructions, see the [root README](../README.md).
+## Project report
+
+The submitted academic report is preserved at:
+
+```text
+Report/Project Report (1).pdf
+```
+
+The report records the project as **Computer Graphics, Section F, Group 06, Summer 2024-25** with the following contributors:
+
+- Fahad Ibne Firoz — `23-52505-2`
+- Md. Mahabub Al Hashan Sourov — `23-50693-1`
+- MD Alif Ziad Sarkar — `23-50497-1`
+- Md. Tauhidul Islam — `22-49388-3`
+
+Course teacher: **Dipta Justin Gomes**.
+
+For screenshots, contribution percentages, controls, dependencies, implementation details, and build instructions, see the [root README](../README.md).
