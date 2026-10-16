@@ -2,8 +2,24 @@
 Thumbs.db
 .vscode/
 .idea/
+
+# C/C++ build outputs
 *.o
 *.obj
 *.exe
 *.out
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Local/editor artifacts
 *.log
+*.tmp
+*.swp
+*.swo
